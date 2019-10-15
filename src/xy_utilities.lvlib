@@ -36,21 +36,29 @@
 	<Item Name="Math" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="subVIs" Type="Folder">
+			<Item Name="Add float (single).vi" Type="VI" URL="../math/subVIs/Add float (single).vi"/>
+			<Item Name="Add float (multiple).vi" Type="VI" URL="../math/subVIs/Add float (multiple).vi"/>
 			<Item Name="Add XY (single).vi" Type="VI" URL="../math/subVIs/Add XY (single).vi"/>
-			<Item Name="Add XY (multiple).vi" Type="VI" URL="../math/subVIs/Add XY (multiple).vi"/>
 			<Item Name="Subtract XY (single).vi" Type="VI" URL="../math/subVIs/Subtract XY (single).vi"/>
 			<Item Name="Subtract XY (multiple).vi" Type="VI" URL="../math/subVIs/Subtract XY (multiple).vi"/>
 			<Item Name="Multiply XY (single).vi" Type="VI" URL="../math/subVIs/Multiply XY (single).vi"/>
 			<Item Name="Multiply XY (multiple).vi" Type="VI" URL="../math/subVIs/Multiply XY (multiple).vi"/>
 			<Item Name="Divide XY (single).vi" Type="VI" URL="../math/subVIs/Divide XY (single).vi"/>
 			<Item Name="Divide XY (multiple).vi" Type="VI" URL="../math/subVIs/Divide XY (multiple).vi"/>
+			<Item Name="Sort Ascending (single).vi" Type="VI" URL="../math/subVIs/Sort Ascending (single).vi"/>
+			<Item Name="Sort Ascending (multiple).vi" Type="VI" URL="../math/subVIs/Sort Ascending (multiple).vi"/>
+			<Item Name="Derivative (multiple).vi" Type="VI" URL="../math/subVIs/Derivative (multiple).vi"/>
+			<Item Name="Derivative (single).vi" Type="VI" URL="../math/subVIs/Derivative (single).vi"/>
 		</Item>
+		<Item Name="Derivative.vi" Type="VI" URL="../math/Derivative.vi"/>
+		<Item Name="Sort Ascending.vi" Type="VI" URL="../math/Sort Ascending.vi"/>
 		<Item Name="Add XY.vi" Type="VI" URL="../math/Add XY.vi"/>
 		<Item Name="Subtract XY.vi" Type="VI" URL="../math/Subtract XY.vi"/>
 		<Item Name="Multiply XY.vi" Type="VI" URL="../math/Multiply XY.vi"/>
 		<Item Name="Divide XY.vi" Type="VI" URL="../math/Divide XY.vi"/>
 	</Item>
 	<Item Name="Templates" Type="Folder">
+		<Item Name="Interpolate (single).vi" Type="VI" URL="../math/subVIs/Interpolate (single).vi"/>
 		<Item Name="Template-XY-data (multiple).vit" Type="VI" URL="../templates/Template-XY-data (multiple).vit"/>
 		<Item Name="Template-XY-data (single).vit" Type="VI" URL="../templates/Template-XY-data (single).vit"/>
 	</Item>
