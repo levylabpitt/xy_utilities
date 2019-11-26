@@ -10,21 +10,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Tree.vi" Type="VI" URL="../math/Tree.vi"/>
 		<Item Name="xy_utilities.lvlib" Type="Library" URL="../xy_utilities.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Decimate_VS_X_Value.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/PPMS Data Analysis/subVI/Decimate_VS_X_Value.vi"/>
-				<Item Name="MGI Decimate Array with Offset (DBL[]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Decimate Array with Offset/MGI Decimate Array with Offset (DBL[]).vi"/>
-				<Item Name="MGI Decimate Array with Offset (DBL[][]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Decimate Array with Offset/MGI Decimate Array with Offset (DBL[][]).vi"/>
-				<Item Name="MGI Decimate Array with Offset (DBL[][][]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Decimate Array with Offset/MGI Decimate Array with Offset (DBL[][][]).vi"/>
-				<Item Name="MGI Decimate Array with Offset (DBL[][][][]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Decimate Array with Offset/MGI Decimate Array with Offset (DBL[][][][]).vi"/>
-				<Item Name="MGI Decimate Array with Offset (SGL[]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Decimate Array with Offset/MGI Decimate Array with Offset (SGL[]).vi"/>
-				<Item Name="MGI Decimate Array with Offset (SGL[][]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Decimate Array with Offset/MGI Decimate Array with Offset (SGL[][]).vi"/>
-				<Item Name="MGI Decimate Array with Offset (SGL[][][]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Decimate Array with Offset/MGI Decimate Array with Offset (SGL[][][]).vi"/>
-				<Item Name="MGI Decimate Array with Offset (SGL[][][][]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Decimate Array with Offset/MGI Decimate Array with Offset (SGL[][][][]).vi"/>
-				<Item Name="MGI Decimate Array with Offset.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Decimate Array with Offset.vi"/>
-				<Item Name="MGI Insert Reserved Error.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Insert Reserved Error.vi"/>
+				<Item Name="Ramp_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Control VI/Other/Ramp_SubVI.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
@@ -32,6 +22,7 @@
 				<Item Name="DWDT Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital Size.vi"/>
 				<Item Name="DWDT Get Final Time Value.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Get Final Time Value.vi"/>
 				<Item Name="DWDT Waveform Duration.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Waveform Duration.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get Final Time Value.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Get Final Time Value.vi"/>
 				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
