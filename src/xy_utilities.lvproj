@@ -10,10 +10,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="build support" Type="Folder">
+			<Item Name="XY Utilities.vipb" Type="Document" URL="../../build support/XY Utilities.vipb"/>
+		</Item>
 		<Item Name="xy_utilities.lvlib" Type="Library" URL="../xy_utilities.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Decimate_VS_X_Value.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/PPMS Data Analysis/subVI/Decimate_VS_X_Value.vi"/>
 				<Item Name="Ramp_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Control VI/Other/Ramp_SubVI.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
