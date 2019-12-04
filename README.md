@@ -71,3 +71,11 @@ Download and install using the VI Package Manager as described [here](https://le
 
 ## Examples
 See **Tree.vi** and **Test.vi**
+
+...More Coming Soon...
+
+## Contributing
+Please contact [Patrick Irvin](p.irvin@levylab.org)
+
+## License
+[BSD-3](https://opensource.org/licenses/BSD-3-Clause)
