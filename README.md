@@ -1,9 +1,13 @@
 # XY Utilities
-Utilities for working with XY data in LabVIEW. Primitive datatype is "XY-data", a cluster containing an X and Y array.
+Utilities for working with XY data in LabVIEW
+
+The primitive datatype is "XY-data", a cluster containing an X and Y array.
 
 ![XY-Data](images/XY-Data.png)
 
-Aarrays of XY-data are also supported.
+Arrays of XY-data are also supported.
+
+![]()
 
 ## Installation
 Download and install using the VI Package Manager as described [here](https://levylabpitt.github.io/)
