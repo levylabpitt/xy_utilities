@@ -36,6 +36,7 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="examples" Type="Folder">
 		<Item Name="Tree.vi" Type="VI" URL="../examples/Tree.vi"/>
+		<Item Name="Test.vi" Type="VI" URL="../examples/Test.vi"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Add float (multiple).vi" Type="VI" URL="../subVIs/Add float (multiple).vi"/>
@@ -44,8 +45,8 @@
 		<Item Name="Add XY (single).vi" Type="VI" URL="../subVIs/Add XY (single).vi"/>
 		<Item Name="Decimate (multiple).vi" Type="VI" URL="../subVIs/Decimate (multiple).vi"/>
 		<Item Name="Decimate (single).vi" Type="VI" URL="../subVIs/Decimate (single).vi"/>
-		<Item Name="Decimate and Interpolate (multiple).vi" Type="VI" URL="../subVIs/Decimate and Interpolate (multiple).vi"/>
-		<Item Name="Decimate and Interpolate (single).vi" Type="VI" URL="../subVIs/Decimate and Interpolate (single).vi"/>
+		<Item Name="Interpolate (multiple).vi" Type="VI" URL="../subVIs/Interpolate (multiple).vi"/>
+		<Item Name="Interpolate (single).vi" Type="VI" URL="../subVIs/Interpolate (single).vi"/>
 		<Item Name="Derivative (multiple).vi" Type="VI" URL="../subVIs/Derivative (multiple).vi"/>
 		<Item Name="Derivative (single).vi" Type="VI" URL="../subVIs/Derivative (single).vi"/>
 		<Item Name="Divide float (multiple).vi" Type="VI" URL="../subVIs/Divide float (multiple).vi"/>
@@ -58,19 +59,24 @@
 		<Item Name="PS (single).vi" Type="VI" URL="../subVIs/PS (single).vi"/>
 		<Item Name="Resample (multiple).vi" Type="VI" URL="../subVIs/Resample (multiple).vi"/>
 		<Item Name="Resample (single).vi" Type="VI" URL="../subVIs/Resample (single).vi"/>
-		<Item Name="Sort Ascending (multiple).vi" Type="VI" URL="../subVIs/Sort Ascending (multiple).vi"/>
-		<Item Name="Sort Ascending (single).vi" Type="VI" URL="../subVIs/Sort Ascending (single).vi"/>
+		<Item Name="Sort (multiple).vi" Type="VI" URL="../subVIs/Sort (multiple).vi"/>
+		<Item Name="Sort (single).vi" Type="VI" URL="../subVIs/Sort (single).vi"/>
 		<Item Name="Subtract float (multiple).vi" Type="VI" URL="../subVIs/Subtract float (multiple).vi"/>
 		<Item Name="Subtract float (single).vi" Type="VI" URL="../subVIs/Subtract float (single).vi"/>
 		<Item Name="Subtract XY (multiple).vi" Type="VI" URL="../subVIs/Subtract XY (multiple).vi"/>
 		<Item Name="Subtract XY (single).vi" Type="VI" URL="../subVIs/Subtract XY (single).vi"/>
 		<Item Name="Swap X and Y (multiple).vi" Type="VI" URL="../subVIs/Swap X and Y (multiple).vi"/>
 		<Item Name="Swap X and Y (single).vi" Type="VI" URL="../subVIs/Swap X and Y (single).vi"/>
-		<Item Name="Take Portion of Data (multiple).vi" Type="VI" URL="../subVIs/Take Portion of Data (multiple).vi"/>
-		<Item Name="Take Portion of Data (single).vi" Type="VI" URL="../subVIs/Take Portion of Data (single).vi"/>
+		<Item Name="Subset (multiple).vi" Type="VI" URL="../subVIs/Subset (multiple).vi"/>
+		<Item Name="Subset (single).vi" Type="VI" URL="../subVIs/Subset (single).vi"/>
+		<Item Name="Reverse (single).vi" Type="VI" URL="../subVIs/Reverse (single).vi"/>
+		<Item Name="Reverse (multiple).vi" Type="VI" URL="../subVIs/Reverse (multiple).vi"/>
+		<Item Name="Get X and Y (single).vi" Type="VI" URL="../subVIs/Get X and Y (single).vi"/>
+		<Item Name="Get X and Y (multiple).vi" Type="VI" URL="../subVIs/Get X and Y (multiple).vi"/>
 	</Item>
 	<Item Name="Templates" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Template-XY-data.vit" Type="VI" URL="../templates/Template-XY-data.vit"/>
 		<Item Name="Template-XY-data (single).vit" Type="VI" URL="../templates/Template-XY-data (single).vit"/>
 		<Item Name="Template-XY-data (multiple).vit" Type="VI" URL="../templates/Template-XY-data (multiple).vit"/>
 	</Item>
@@ -78,14 +84,16 @@
 	<Item Name="Subtract.vi" Type="VI" URL="../Subtract.vi"/>
 	<Item Name="Multiply.vi" Type="VI" URL="../Multiply.vi"/>
 	<Item Name="Divide.vi" Type="VI" URL="../Divide.vi"/>
-	<Item Name="Sort Ascending.vi" Type="VI" URL="../Sort Ascending.vi"/>
+	<Item Name="Sort.vi" Type="VI" URL="../Sort.vi"/>
 	<Item Name="Swap X and Y.vi" Type="VI" URL="../Swap X and Y.vi"/>
 	<Item Name="Average.vi" Type="VI" URL="../Average.vi"/>
 	<Item Name="Decimate.vi" Type="VI" URL="../Decimate.vi"/>
-	<Item Name="Take Portion of Data.vi" Type="VI" URL="../Take Portion of Data.vi"/>
+	<Item Name="Interpolate.vi" Type="VI" URL="../Interpolate.vi"/>
+	<Item Name="Subset.vi" Type="VI" URL="../Subset.vi"/>
 	<Item Name="Derivative.vi" Type="VI" URL="../Derivative.vi"/>
 	<Item Name="Resample.vi" Type="VI" URL="../Resample.vi"/>
-	<Item Name="FFT.vi" Type="VI" URL="../FFT.vi"/>
-	<Item Name="Decimate and Interpolate.vi" Type="VI" URL="../Decimate and Interpolate.vi"/>
-	<Item Name="PS.vi" Type="VI" URL="../PS.vi"/>
+	<Item Name="FFT Spectrum.vi" Type="VI" URL="../FFT Spectrum.vi"/>
+	<Item Name="FFT Power Spectrum.vi" Type="VI" URL="../FFT Power Spectrum.vi"/>
+	<Item Name="Get X and Y" Type="VI" URL="../Get X and Y"/>
+	<Item Name="Reverse.vi" Type="VI" URL="../Reverse.vi"/>
 </Library>
