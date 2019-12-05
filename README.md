@@ -53,6 +53,10 @@ Download and install using the VI Package Manager as described [here](https://le
 
 ![Interpolate.vi](images/Interpolate.vi.png)
 
+### Average.vi
+
+![Average.vi](images/Average.vi.png)
+
 ### FFT Spectrum.vi
 
 ![FFT Spectrum.vi](images/FFT-Spectrum.vi.png)
