@@ -7,7 +7,7 @@ The primitive datatype is "XY-data", a cluster containing an X and Y array.
 
 Arrays of XY-data are also supported.
 
-![]()
+![XY-Data-Array](images/XY-Data-Array.png)
 
 ## Installation
 Download and install using the VI Package Manager as described [here](https://levylabpitt.github.io/)
