@@ -94,6 +94,6 @@
 	<Item Name="Resample.vi" Type="VI" URL="../Resample.vi"/>
 	<Item Name="FFT Spectrum.vi" Type="VI" URL="../FFT Spectrum.vi"/>
 	<Item Name="FFT Power Spectrum.vi" Type="VI" URL="../FFT Power Spectrum.vi"/>
-	<Item Name="Get X and Y" Type="VI" URL="../Get X and Y"/>
+	<Item Name="Get X and Y.vi" Type="VI" URL="../Get X and Y.vi"/>
 	<Item Name="Reverse.vi" Type="VI" URL="../Reverse.vi"/>
 </Library>
