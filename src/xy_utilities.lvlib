@@ -85,15 +85,15 @@
 	<Item Name="Multiply.vi" Type="VI" URL="../Multiply.vi"/>
 	<Item Name="Divide.vi" Type="VI" URL="../Divide.vi"/>
 	<Item Name="Sort.vi" Type="VI" URL="../Sort.vi"/>
-	<Item Name="Swap X and Y.vi" Type="VI" URL="../Swap X and Y.vi"/>
-	<Item Name="Average.vi" Type="VI" URL="../Average.vi"/>
+	<Item Name="Reverse.vi" Type="VI" URL="../Reverse.vi"/>
 	<Item Name="Decimate.vi" Type="VI" URL="../Decimate.vi"/>
-	<Item Name="Interpolate.vi" Type="VI" URL="../Interpolate.vi"/>
 	<Item Name="Subset.vi" Type="VI" URL="../Subset.vi"/>
+	<Item Name="Swap X and Y.vi" Type="VI" URL="../Swap X and Y.vi"/>
+	<Item Name="Get X and Y.vi" Type="VI" URL="../Get X and Y.vi"/>
 	<Item Name="Derivative.vi" Type="VI" URL="../Derivative.vi"/>
+	<Item Name="Average.vi" Type="VI" URL="../Average.vi"/>
+	<Item Name="Interpolate.vi" Type="VI" URL="../Interpolate.vi"/>
 	<Item Name="Resample.vi" Type="VI" URL="../Resample.vi"/>
 	<Item Name="FFT Spectrum.vi" Type="VI" URL="../FFT Spectrum.vi"/>
 	<Item Name="FFT Power Spectrum.vi" Type="VI" URL="../FFT Power Spectrum.vi"/>
-	<Item Name="Get X and Y.vi" Type="VI" URL="../Get X and Y.vi"/>
-	<Item Name="Reverse.vi" Type="VI" URL="../Reverse.vi"/>
 </Library>
