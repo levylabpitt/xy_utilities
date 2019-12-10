@@ -51,10 +51,14 @@
 		<Item Name="Derivative (single).vi" Type="VI" URL="../subVIs/Derivative (single).vi"/>
 		<Item Name="Divide float (multiple).vi" Type="VI" URL="../subVIs/Divide float (multiple).vi"/>
 		<Item Name="Divide float (single).vi" Type="VI" URL="../subVIs/Divide float (single).vi"/>
+		<Item Name="Divide XY (multiple).vi" Type="VI" URL="../subVIs/Divide XY (multiple).vi"/>
+		<Item Name="Divide XY (single).vi" Type="VI" URL="../subVIs/Divide XY (single).vi"/>
 		<Item Name="FFT (multiple).vi" Type="VI" URL="../subVIs/FFT (multiple).vi"/>
 		<Item Name="FFT (single).vi" Type="VI" URL="../subVIs/FFT (single).vi"/>
 		<Item Name="Multiply float (multiple).vi" Type="VI" URL="../subVIs/Multiply float (multiple).vi"/>
 		<Item Name="Multiply float (single).vi" Type="VI" URL="../subVIs/Multiply float (single).vi"/>
+		<Item Name="Multiply XY (multiple).vi" Type="VI" URL="../subVIs/Multiply XY (multiple).vi"/>
+		<Item Name="Multiply XY (single).vi" Type="VI" URL="../subVIs/Multiply XY (single).vi"/>
 		<Item Name="PS (multiple).vi" Type="VI" URL="../subVIs/PS (multiple).vi"/>
 		<Item Name="PS (single).vi" Type="VI" URL="../subVIs/PS (single).vi"/>
 		<Item Name="Resample (multiple).vi" Type="VI" URL="../subVIs/Resample (multiple).vi"/>
@@ -73,10 +77,11 @@
 		<Item Name="Reverse (multiple).vi" Type="VI" URL="../subVIs/Reverse (multiple).vi"/>
 		<Item Name="Get X and Y (single).vi" Type="VI" URL="../subVIs/Get X and Y (single).vi"/>
 		<Item Name="Get X and Y (multiple).vi" Type="VI" URL="../subVIs/Get X and Y (multiple).vi"/>
+		<Item Name="Square (single).vi" Type="VI" URL="../subVIs/Square (single).vi"/>
+		<Item Name="Square (multiple).vi" Type="VI" URL="../subVIs/Square (multiple).vi"/>
 	</Item>
 	<Item Name="Templates" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Template-XY-data.vit" Type="VI" URL="../templates/Template-XY-data.vit"/>
 		<Item Name="Template-XY-data (single).vit" Type="VI" URL="../templates/Template-XY-data (single).vit"/>
 		<Item Name="Template-XY-data (multiple).vit" Type="VI" URL="../templates/Template-XY-data (multiple).vit"/>
 	</Item>
@@ -84,6 +89,7 @@
 	<Item Name="Subtract.vi" Type="VI" URL="../Subtract.vi"/>
 	<Item Name="Multiply.vi" Type="VI" URL="../Multiply.vi"/>
 	<Item Name="Divide.vi" Type="VI" URL="../Divide.vi"/>
+	<Item Name="Square.vi" Type="VI" URL="../Square.vi"/>
 	<Item Name="Sort.vi" Type="VI" URL="../Sort.vi"/>
 	<Item Name="Reverse.vi" Type="VI" URL="../Reverse.vi"/>
 	<Item Name="Decimate.vi" Type="VI" URL="../Decimate.vi"/>
