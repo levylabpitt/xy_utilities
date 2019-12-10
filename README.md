@@ -34,6 +34,10 @@ Youtube [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJEis)
 
 ![Divide.vi](images/Divide.vi.png)
 
+#### Square.vi
+
+![Square.vi](images/Square.vi.png)
+
 ### Array Functions
 ### Reverse.vi
 
