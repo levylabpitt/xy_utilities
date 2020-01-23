@@ -79,6 +79,8 @@
 		<Item Name="Get X and Y (multiple).vi" Type="VI" URL="../subVIs/Get X and Y (multiple).vi"/>
 		<Item Name="Square (single).vi" Type="VI" URL="../subVIs/Square (single).vi"/>
 		<Item Name="Square (multiple).vi" Type="VI" URL="../subVIs/Square (multiple).vi"/>
+		<Item Name="Symmetrize (multiple).vi" Type="VI" URL="../subVIs/Symmetrize (multiple).vi"/>
+		<Item Name="Symmetrize (single).vi" Type="VI" URL="../subVIs/Symmetrize (single).vi"/>
 	</Item>
 	<Item Name="Templates" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -102,4 +104,5 @@
 	<Item Name="Resample.vi" Type="VI" URL="../Resample.vi"/>
 	<Item Name="FFT Spectrum.vi" Type="VI" URL="../FFT Spectrum.vi"/>
 	<Item Name="FFT Power Spectrum.vi" Type="VI" URL="../FFT Power Spectrum.vi"/>
+	<Item Name="Symmetrize.vi" Type="VI" URL="../Symmetrize.vi"/>
 </Library>

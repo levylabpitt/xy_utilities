@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2019-12-03 14:00:53" Modified_Date="2019-12-10 13:24:43" Creator="Patrick Irvin" Comments="" ID="702c24ff1bd5bdbc5fa9b32fb994779c">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2019-12-03 14:00:53" Modified_Date="2020-01-23 11:00:15" Creator="Patrick Irvin" Comments="" ID="b131ddff9c2e466d8acff706683144ac">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_XY_Utilities</Package_File_Name>
-    <Library_Version>1.0.1.3</Library_Version>
+    <Library_Version>1.0.2.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -40,11 +40,8 @@ Supported methods:
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- Add Square.vi function
-- Add Multiply and Divide XY (multiply or divide XY-data by another XY-data)
-- Fix bugs in Derivative.vi and now allow user to choose units of dertivative interval
-- Fix bugs in Add.vi and Subtract.vi when x or y input has an empty x or y array
-- Update Subset Slider display</Release_Notes>
+      <Release_Notes>[1.0.2.3]
+- Add Symmetrize.vi</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -460,7 +457,21 @@ Supported methods:
         <Path>..\src\Square.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F9FA99F568A315CCA1AB415AC6ED3123</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Symmeterize.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>7</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Symmeterize.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>FD76898574320E7B97BC286F69B16D36</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -509,7 +520,7 @@ Supported methods:
         <Path>..\src\examples\Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>184942A19FFEECA9DC5D64002CA45E06</GUID>
+      <GUID>356F6FCD81F5A33C607AA24A6FF1EBCB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
