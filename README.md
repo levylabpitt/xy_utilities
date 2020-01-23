@@ -12,9 +12,7 @@ Arrays of XY-data are also supported:
 ## Getting Started
 Download and install using the VI Package Manager as described [here](https://levylabpitt.github.io/)
 
-Video tutorial [1](https://drive.google.com/file/d/1CvF9rPJewbxkMVLEgYQJH42OVeokuThd/view?usp=drivesdk) and [2](https://drive.google.com/file/d/1rAFpSUpno209tP4lu6OkoyVjX_knOz51/view?usp=drivesdk).
-
-Youtube [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJEis)
+Video tutorials: [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJEis)
 
 ## Usage
 ### Arithmetic Functions
