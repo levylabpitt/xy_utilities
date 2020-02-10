@@ -1,20 +1,18 @@
 # XY Utilities
 Utilities for working with XY data in LabVIEW
 
-The primitive datatype is "XY-data", a cluster containing an X and Y array.
+The primitive datatype is "XY-data", a cluster containing an X and Y array:
 
 ![XY-Data](images/XY-Data.png)
 
-Arrays of XY-data are also supported.
+Arrays of XY-data are also supported:
 
 ![XY-Data-Array](images/XY-Data-Array.png)
 
 ## Getting Started
 Download and install using the VI Package Manager as described [here](https://levylabpitt.github.io/)
 
-Video tutorial [1](https://drive.google.com/file/d/1CvF9rPJewbxkMVLEgYQJH42OVeokuThd/view?usp=drivesdk) and [2](https://drive.google.com/file/d/1rAFpSUpno209tP4lu6OkoyVjX_knOz51/view?usp=drivesdk).
-
-Youtube [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJEis)
+Video tutorials: [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJEis)
 
 ## Usage
 ### Arithmetic Functions
@@ -58,6 +56,10 @@ Youtube [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJEis)
 ### Get X and Y.vi
 
 ![Get X and Y.vi](images/Get-X-and-Y.vi.png)
+
+### Symmetrize.vi
+
+![Symmetrize.vi](images/Symmetrize.vi.png)
 
 ### Signal Processing
 #### Derivative.vi
