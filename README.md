@@ -113,7 +113,7 @@ Video tutorials: [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJ
 **Test.vi** is a JKI State Machine that demonstrates how to build a signal processing application with scripted states.
 
 ## Contributing
-Please contact [Patrick Irvin](p.irvin@levylab.org)
+Please contact [Patrick Irvin](https://github.com/ciozi137)
 
 ## License
 [BSD-3](https://opensource.org/licenses/BSD-3-Clause)
