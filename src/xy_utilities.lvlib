@@ -81,10 +81,12 @@
 		<Item Name="Square (multiple).vi" Type="VI" URL="../subVIs/Square (multiple).vi"/>
 		<Item Name="Symmetrize (multiple).vi" Type="VI" URL="../subVIs/Symmetrize (multiple).vi"/>
 		<Item Name="Symmetrize (single).vi" Type="VI" URL="../subVIs/Symmetrize (single).vi"/>
-		<Item Name="Waveform to XY (single).vi" Type="VI" URL="../subVIs/Waveform to XY (single).vi"/>
-		<Item Name="Waveform to XY (multiple).vi" Type="VI" URL="../subVIs/Waveform to XY (multiple).vi"/>
 		<Item Name="Append (single).vi" Type="VI" URL="../subVIs/Append (single).vi"/>
 		<Item Name="Append (multiple).vi" Type="VI" URL="../subVIs/Append (multiple).vi"/>
+		<Item Name="Waveform to XY (single).vi" Type="VI" URL="../subVIs/Waveform to XY (single).vi"/>
+		<Item Name="Waveform to XY (multiple).vi" Type="VI" URL="../subVIs/Waveform to XY (multiple).vi"/>
+		<Item Name="XY to Waveform (single).vi" Type="VI" URL="../subVIs/XY to Waveform (single).vi"/>
+		<Item Name="XY to Waveform (multiple).vi" Type="VI" URL="../subVIs/XY to Waveform (multiple).vi"/>
 	</Item>
 	<Item Name="Templates" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -114,4 +116,5 @@
 	<Item Name="Symmetrize.vi" Type="VI" URL="../Symmetrize.vi"/>
 	<Item Name="Waveform to XY.vi" Type="VI" URL="../Waveform to XY.vi"/>
 	<Item Name="Append.vi" Type="VI" URL="../Append.vi"/>
+	<Item Name="XY to Waveform.vi" Type="VI" URL="../XY to Waveform.vi"/>
 </Library>
