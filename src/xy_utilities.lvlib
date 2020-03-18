@@ -114,7 +114,7 @@
 	<Item Name="FFT Spectrum.vi" Type="VI" URL="../FFT Spectrum.vi"/>
 	<Item Name="FFT Power Spectrum.vi" Type="VI" URL="../FFT Power Spectrum.vi"/>
 	<Item Name="Symmetrize.vi" Type="VI" URL="../Symmetrize.vi"/>
-	<Item Name="Waveform to XY.vi" Type="VI" URL="../Waveform to XY.vi"/>
 	<Item Name="Append.vi" Type="VI" URL="../Append.vi"/>
+	<Item Name="Waveform to XY.vi" Type="VI" URL="../Waveform to XY.vi"/>
 	<Item Name="XY to Waveform.vi" Type="VI" URL="../XY to Waveform.vi"/>
 </Library>
