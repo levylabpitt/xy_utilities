@@ -89,6 +89,9 @@
 		<Item Name="Template-XY-data (single).vit" Type="VI" URL="../templates/Template-XY-data (single).vit"/>
 		<Item Name="Template-XY-data (multiple).vit" Type="VI" URL="../templates/Template-XY-data (multiple).vit"/>
 	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Interpolation Configuration--cluster.ctl" Type="VI" URL="../Typedefs/Interpolation Configuration--cluster.ctl"/>
+	</Item>
 	<Item Name="Add.vi" Type="VI" URL="../Add.vi"/>
 	<Item Name="Subtract.vi" Type="VI" URL="../Subtract.vi"/>
 	<Item Name="Multiply.vi" Type="VI" URL="../Multiply.vi"/>
