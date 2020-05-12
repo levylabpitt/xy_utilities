@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2020-03-18 13:13:03" Creator="Patrick Irvin" Comments="" ID="a2ec2ada849c7cf3b42622a747322b71">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2020-05-12 16:20:39" Creator="Patrick Irvin" Comments="" ID="8618481c67faa06f320b0592fd258673">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_XY_Utilities</Package_File_Name>
-    <Library_Version>1.0.4.6</Library_Version>
+    <Library_Version>1.1.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,11 +17,11 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
       <External_Dependencies>levylab_lib_control_vi &gt;= 1.3.0.11</External_Dependencies>
+      <External_Dependencies>oglib_array &gt;= 4.1.1.14</External_Dependencies>
       <External_Dependencies>oglib_string &gt;= 4.1.0.12</External_Dependencies>
-      <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>levylab_lib_control_vi-1.3.0.11</Direct_Dependencies>
+      <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
       <Direct_Dependencies>oglib_string-4.1.0.12</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
@@ -44,10 +44,13 @@ Supported methods:
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.0.4.5]
-New method:
-- XY to Waveform.vi
-Bug Fixes</Release_Notes>
+      <Release_Notes>[1.1.0.6]
+New methods:
+- Interpolate Parameter.vi: interpolate along "parameter" dimension
+- Interpolate Y.vi: for a given x value interpolate and return a fractional Y value
+- Shift Zero.vi: adjust zero value for a given fractional x index (useful for magnetic field sweeps)
+Bug Fixes:
+- Interpolate.vi: now also interpolates the x array</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -519,7 +522,49 @@ Bug Fixes</Release_Notes>
         <Path>..\src\Average.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C4D782A3C90D377A26EA5C99A0D09F4</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Interpolate Parameter.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Interpolate Parameter.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Interpolate Y.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Interpolate Y.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Shift Zero.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Shift Zero.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>2848D04ED3A86380E78B2A7278848C8A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -568,7 +613,7 @@ Bug Fixes</Release_Notes>
         <Path>..\src\examples\Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8CBAF46FE3AFDB7E2107E2F76B3AD352</GUID>
+      <GUID>8032F14D46DACBA65C4C6E6EA0C6ACFB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
