@@ -87,6 +87,8 @@
 		<Item Name="Waveform to XY (multiple).vi" Type="VI" URL="../subVIs/Waveform to XY (multiple).vi"/>
 		<Item Name="XY to Waveform (single).vi" Type="VI" URL="../subVIs/XY to Waveform (single).vi"/>
 		<Item Name="XY to Waveform (multiple).vi" Type="VI" URL="../subVIs/XY to Waveform (multiple).vi"/>
+		<Item Name="Interpolate Y (single).vi" Type="VI" URL="../subVIs/Interpolate Y (single).vi"/>
+		<Item Name="Interpolate Y (multiple).vi" Type="VI" URL="../subVIs/Interpolate Y (multiple).vi"/>
 	</Item>
 	<Item Name="Templates" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -111,6 +113,8 @@
 	<Item Name="Derivative.vi" Type="VI" URL="../Derivative.vi"/>
 	<Item Name="Average.vi" Type="VI" URL="../Average.vi"/>
 	<Item Name="Interpolate.vi" Type="VI" URL="../Interpolate.vi"/>
+	<Item Name="Interpolate Parameter.vi" Type="VI" URL="../Interpolate Parameter.vi"/>
+	<Item Name="Interpolate Y.vi" Type="VI" URL="../Interpolate Y.vi"/>
 	<Item Name="Resample.vi" Type="VI" URL="../Resample.vi"/>
 	<Item Name="FFT Spectrum.vi" Type="VI" URL="../FFT Spectrum.vi"/>
 	<Item Name="FFT Power Spectrum.vi" Type="VI" URL="../FFT Power Spectrum.vi"/>
@@ -118,6 +122,4 @@
 	<Item Name="Append.vi" Type="VI" URL="../Append.vi"/>
 	<Item Name="Waveform to XY.vi" Type="VI" URL="../Waveform to XY.vi"/>
 	<Item Name="XY to Waveform.vi" Type="VI" URL="../XY to Waveform.vi"/>
-	<Item Name="Interpolate Parameter DELETE ME.vi" Type="VI" URL="../Interpolate Parameter DELETE ME.vi"/>
-	<Item Name="Interpolate Parameter.vi" Type="VI" URL="../Interpolate Parameter.vi"/>
 </Library>
