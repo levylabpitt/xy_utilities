@@ -74,6 +74,14 @@ Video tutorials: [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJ
 
 ![Interpolate.vi](images/Interpolate.vi.png)
 
+#### Interpolate Y.vi
+
+![Interpolate Y.vi](images/Interpolate Y.vi.png)
+
+#### Interpolate Parameter.vi
+
+![Interpolate Parameter.vi](images/Interpolate Parameter.vi.png)
+
 #### Average.vi
 
 ![Average.vi](images/Average.vi.png)
@@ -85,6 +93,18 @@ Video tutorials: [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJ
 #### FFT Power Spectrum.vi
 
 ![FFT Power Spectrum.vi](images/FFT-Power-Spectrum.vi.png)
+
+#### Append.vi
+
+![Append.vi](images/Append.vi.png)
+
+#### Waveform to XY.vi
+
+![Waveform to XY.vi](images/Waveform to XY.vi.png)
+
+#### XY to Waveform.vi
+
+![XY to Waveform.vi](images/XY to Waveform.vi.png)
 
 ## Examples
 
