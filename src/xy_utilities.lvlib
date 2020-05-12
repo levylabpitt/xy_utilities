@@ -77,6 +77,8 @@
 		<Item Name="Reverse (multiple).vi" Type="VI" URL="../subVIs/Reverse (multiple).vi"/>
 		<Item Name="Get X and Y (single).vi" Type="VI" URL="../subVIs/Get X and Y (single).vi"/>
 		<Item Name="Get X and Y (multiple).vi" Type="VI" URL="../subVIs/Get X and Y (multiple).vi"/>
+		<Item Name="Shift Zero (single).vi" Type="VI" URL="../subVIs/Shift Zero (single).vi"/>
+		<Item Name="Shift Zero (multiple).vi" Type="VI" URL="../subVIs/Shift Zero (multiple).vi"/>
 		<Item Name="Square (single).vi" Type="VI" URL="../subVIs/Square (single).vi"/>
 		<Item Name="Square (multiple).vi" Type="VI" URL="../subVIs/Square (multiple).vi"/>
 		<Item Name="Symmetrize (multiple).vi" Type="VI" URL="../subVIs/Symmetrize (multiple).vi"/>
@@ -122,4 +124,5 @@
 	<Item Name="Append.vi" Type="VI" URL="../Append.vi"/>
 	<Item Name="Waveform to XY.vi" Type="VI" URL="../Waveform to XY.vi"/>
 	<Item Name="XY to Waveform.vi" Type="VI" URL="../XY to Waveform.vi"/>
+	<Item Name="Shift Zero.vi" Type="VI" URL="../Shift Zero.vi"/>
 </Library>
