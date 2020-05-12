@@ -104,6 +104,7 @@
 	<Item Name="Sort.vi" Type="VI" URL="../Sort.vi"/>
 	<Item Name="Reverse.vi" Type="VI" URL="../Reverse.vi"/>
 	<Item Name="Decimate.vi" Type="VI" URL="../Decimate.vi"/>
+	<Item Name="Decimate Array.vi" Type="VI" URL="../Decimate Array.vi"/>
 	<Item Name="Subset.vi" Type="VI" URL="../Subset.vi"/>
 	<Item Name="Swap X and Y.vi" Type="VI" URL="../Swap X and Y.vi"/>
 	<Item Name="Get X and Y.vi" Type="VI" URL="../Get X and Y.vi"/>
