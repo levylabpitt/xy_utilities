@@ -118,4 +118,6 @@
 	<Item Name="Append.vi" Type="VI" URL="../Append.vi"/>
 	<Item Name="Waveform to XY.vi" Type="VI" URL="../Waveform to XY.vi"/>
 	<Item Name="XY to Waveform.vi" Type="VI" URL="../XY to Waveform.vi"/>
+	<Item Name="Interpolate Parameter DELETE ME.vi" Type="VI" URL="../Interpolate Parameter DELETE ME.vi"/>
+	<Item Name="Interpolate Parameter.vi" Type="VI" URL="../Interpolate Parameter.vi"/>
 </Library>
