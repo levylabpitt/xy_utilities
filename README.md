@@ -76,11 +76,11 @@ Video tutorials: [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJ
 
 #### Interpolate Y.vi
 
-![Interpolate Y.vi](images/Interpolate Y.vi.png)
+![Interpolate Y.vi](images/Interpolate-Y.vi.png)
 
 #### Interpolate Parameter.vi
 
-![Interpolate Parameter.vi](images/Interpolate Parameter.vi.png)
+![Interpolate Parameter.vi](images/Interpolate-Parameter.vi.png)
 
 #### Average.vi
 
@@ -98,13 +98,17 @@ Video tutorials: [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJ
 
 ![Append.vi](images/Append.vi.png)
 
+#### Shift Zero.vi
+
+![Shift Zero.vi](images/Shift-Zero.vi.png)
+
 #### Waveform to XY.vi
 
-![Waveform to XY.vi](images/Waveform to XY.vi.png)
+![Waveform to XY.vi](images/Waveform-to-XY.vi.png)
 
 #### XY to Waveform.vi
 
-![XY to Waveform.vi](images/XY to Waveform.vi.png)
+![XY to Waveform.vi](images/XY-to-Waveform.vi.png)
 
 ## Examples
 
