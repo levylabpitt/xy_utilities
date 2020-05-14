@@ -49,6 +49,11 @@ Video tutorials: [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJ
 
 ![Decimate.vi](images/Decimate.vi.png)
 
+
+### Decimate Array.vi
+
+![Decimate Array.vi](images/Decimate-Array.vi.png)
+
 ### Swap X and Y.vi
 
 ![Swap X and Y.vi](images/Swap-X-and-Y.vi.png)
