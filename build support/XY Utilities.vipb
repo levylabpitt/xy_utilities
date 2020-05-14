@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2020-05-14 16:08:05" Creator="Patrick Irvin" Comments="" ID="a822b30bb6eb5a9de820e6130cbf6731">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2020-05-14 16:19:57" Creator="Patrick Irvin" Comments="" ID="a060882bb510de95f4cdbacacd905bf2">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_XY_Utilities</Package_File_Name>
-    <Library_Version>1.1.0.8</Library_Version>
+    <Library_Version>1.1.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -38,14 +38,16 @@
       <Description>Utilities for working with XY-data type (Cluster of 1D X and Y arrays).
 
 Supported methods:
-- Arithmetic: Add, Subtract, Multiply, Divide
-- Array: Sort, Reverse, Decimate, Subset, Sway X and Y, Get X and Y, Append, Waveform to XY
-- DSP: Derivative, Average, Interpolate, Resample, FFT Spectrum, FFT Power Spectrum</Description>
+- &lt;b&gt;Arithmetic&lt;/b&gt;: Add, Subtract, Multiply, Divide, Square
+- &lt;b&gt;Array&lt;/b&gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append
+- &lt;b&gt;Signal Processing&lt;/b&gt;: Derivative, Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize, Shift Zero
+- &lt;b&gt;Waveform Conversion&lt;/b&gt;: Waveform to XY, XY to Waveform</Description>
       <Copyright/>
       <Packager/>
       <URL/>
       <Release_Notes>[1.1.0.7]
 New methods:
+- Decimate Array: decimates an array of XY-Data, leaving the X&amp;Y arrays intact
 - Interpolate Parameter.vi: interpolate along "parameter" dimension
 - Interpolate Y.vi: for a given x value interpolate and return a fractional Y value
 - Shift Zero.vi: adjust zero value for a given fractional x index (useful for magnetic field sweeps)
@@ -578,7 +580,7 @@ Bug Fixes:
         <Path>..\src\FFT Power Spectrum.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DA644429BC60B5AB5482514A017CC380</GUID>
+      <GUID>1E50896FA75718B8106C3EB9C0BE409F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -627,7 +629,7 @@ Bug Fixes:
         <Path>..\src\examples\Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9E1256E6CA652AF5508AD6E3EF882FE8</GUID>
+      <GUID>EA3444ADE210C829AEF655EAAFA7F4A6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
