@@ -1,5 +1,22 @@
 # XY Utilities
-Utilities for working with XY data in LabVIEW
+Utilities for working with "XY data" in LabVIEW
+
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+  - [Arithmetic Functions](#arithmetic-functions)
+  - [Array Functions](#array-functions)
+  - [Signal Processing](#signal-processing)
+  - [Waveform Conversion](#waveform-conversion)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Getting Started
+Download and install using the VI Package Manager as described [here](https://levylabpitt.github.io/)
+
+Video tutorials: [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJEis)
+
+## Usage
 
 The primitive datatype is "XY-data", a cluster containing an X and Y array:
 
@@ -9,12 +26,6 @@ Arrays of XY-data are also supported:
 
 ![XY-Data-Array](images/XY-Data-Array.png)
 
-## Getting Started
-Download and install using the VI Package Manager as described [here](https://levylabpitt.github.io/)
-
-Video tutorials: [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJEis)
-
-## Usage
 ### Arithmetic Functions
 #### Add.vi
 
@@ -37,34 +48,33 @@ Video tutorials: [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJ
 ![Square.vi](images/Square.vi.png)
 
 ### Array Functions
-### Reverse.vi
+#### Reverse.vi
 
 ![Reverse.vi](images/Reverse.vi.png)
 
-### Sort.vi
+#### Sort.vi
 
 ![Sort.vi](images/Sort.vi.png)
 
-### Decimate.vi
+#### Decimate.vi
 
 ![Decimate.vi](images/Decimate.vi.png)
 
-
-### Decimate Array.vi
+#### Decimate Array.vi
 
 ![Decimate Array.vi](images/Decimate-Array.vi.png)
 
-### Swap X and Y.vi
+#### Swap X and Y.vi
 
 ![Swap X and Y.vi](images/Swap-X-and-Y.vi.png)
 
-### Get X and Y.vi
+#### Get X and Y.vi
 
 ![Get X and Y.vi](images/Get-X-and-Y.vi.png)
 
-### Symmetrize.vi
+##### Append.vi
 
-![Symmetrize.vi](images/Symmetrize.vi.png)
+![Append.vi](images/Append.vi.png)
 
 ### Signal Processing
 #### Derivative.vi
@@ -99,13 +109,15 @@ Video tutorials: [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJ
 
 ![FFT Power Spectrum.vi](images/FFT-Power-Spectrum.vi.png)
 
-#### Append.vi
-
-![Append.vi](images/Append.vi.png)
-
 #### Shift Zero.vi
 
 ![Shift Zero.vi](images/Shift-Zero.vi.png)
+
+##$# Symmetrize.vi
+
+![Symmetrize.vi](images/Symmetrize.vi.png)
+
+### Waveform Conversion
 
 #### Waveform to XY.vi
 
@@ -134,6 +146,10 @@ Video tutorials: [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJ
 #### Signal Processing
 
 ![Tree-2-Signal-Processing](images/Tree-2-Signal-Processing.png)
+
+#### Waveform Conversion
+
+![Tree-3-Waveform](images/Tree-3-Waveform.png)
 
 ### Test.vi
 
