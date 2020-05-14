@@ -14,7 +14,7 @@ Utilities for working with "XY data" in LabVIEW
 ## Getting Started
 Download and install using the VI Package Manager as described [here](https://levylabpitt.github.io/)
 
-Video tutorials: [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJEis)
+[Video tutorial]: (https://www.youtube.com/watch?v=hYuaFTodvhw)
 
 ## Usage
 
