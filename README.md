@@ -49,7 +49,6 @@ Video tutorials: [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJ
 
 ![Decimate.vi](images/Decimate.vi.png)
 
-
 ### Decimate Array.vi
 
 ![Decimate Array.vi](images/Decimate-Array.vi.png)
@@ -62,9 +61,9 @@ Video tutorials: [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJ
 
 ![Get X and Y.vi](images/Get-X-and-Y.vi.png)
 
-### Symmetrize.vi
+#### Append.vi
 
-![Symmetrize.vi](images/Symmetrize.vi.png)
+![Append.vi](images/Append.vi.png)
 
 ### Signal Processing
 #### Derivative.vi
@@ -99,13 +98,15 @@ Video tutorials: [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJ
 
 ![FFT Power Spectrum.vi](images/FFT-Power-Spectrum.vi.png)
 
-#### Append.vi
-
-![Append.vi](images/Append.vi.png)
-
 #### Shift Zero.vi
 
 ![Shift Zero.vi](images/Shift-Zero.vi.png)
+
+### Symmetrize.vi
+
+![Symmetrize.vi](images/Symmetrize.vi.png)
+
+### Waveform Conversion
 
 #### Waveform to XY.vi
 
@@ -134,6 +135,10 @@ Video tutorials: [1](https://youtu.be/eSvicCe4rxI) [2](https://youtu.be/vsgaZ0WJ
 #### Signal Processing
 
 ![Tree-2-Signal-Processing](images/Tree-2-Signal-Processing.png)
+
+#### Waveform Conversion
+
+![Tree-3-Waveform](images/Tree-3-Waveform.png)
 
 ### Test.vi
 
