@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2020-05-14 16:23:17" Creator="Patrick Irvin" Comments="" ID="e306e33170e49f60d97f4e073774f205">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2020-08-17 14:22:53" Creator="Patrick Irvin" Comments="" ID="9eab621346ce2a4f31d6f16e6875e817">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_XY_Utilities</Package_File_Name>
-    <Library_Version>1.1.0.10</Library_Version>
+    <Library_Version>1.1.1.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -45,19 +45,13 @@ Supported methods:
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>New methods:
-- Decimate Array: decimates an array of XY-Data, leaving the X&amp;Y arrays intact
-- Interpolate Parameter.vi: interpolate along "parameter" dimension
-- Interpolate Y.vi: for a given x value interpolate and return a fractional Y value
-- Shift Zero.vi: adjust zero value for a given fractional x index (useful for magnetic field sweeps)
-Bug Fixes:
-- Interpolate.vi: now also interpolates the x array</Release_Notes>
+      <Release_Notes>- Change install location</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;user.lib&gt;\LevyLab\XY Uilities</Path>
+        <Path>&lt;user.lib&gt;\LevyLab\XY Utilities</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -579,7 +573,7 @@ Bug Fixes:
         <Path>..\src\FFT Power Spectrum.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EB9EE06698A31DDCDF75A3D23962A443</GUID>
+      <GUID>9DF5D0D1C9C24B472E16DB58901BCF29</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -628,7 +622,7 @@ Bug Fixes:
         <Path>..\src\examples\Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>634C8034C2C9A844EE7171FA8E20C2AC</GUID>
+      <GUID>3167D367741D8AB166E38B09119CA81A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
