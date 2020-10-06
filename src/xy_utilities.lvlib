@@ -125,4 +125,8 @@
 	<Item Name="Waveform to XY.vi" Type="VI" URL="../Waveform to XY.vi"/>
 	<Item Name="XY to Waveform.vi" Type="VI" URL="../XY to Waveform.vi"/>
 	<Item Name="Shift Zero.vi" Type="VI" URL="../Shift Zero.vi"/>
+	<Item Name="Flatten (single).vi" Type="VI" URL="../subVIs/Flatten (single).vi"/>
+	<Item Name="Restrict X Range (single).vi" Type="VI" URL="../subVIs/Restrict X Range (single).vi"/>
+	<Item Name="Remove Outliers (single).vi" Type="VI" URL="../subVIs/Remove Outliers (single).vi"/>
+	<Item Name="Moving Average (single).vi" Type="VI" URL="../subVIs/Moving Average (single).vi"/>
 </Library>
