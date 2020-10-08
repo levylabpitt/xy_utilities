@@ -12,8 +12,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="XY Utilities.vipc" Type="Document" URL="../../build support/XY Utilities.vipc"/>
 			<Item Name="XY Utilities.vipb" Type="Document" URL="../../build support/XY Utilities.vipb"/>
+			<Item Name="XY Utilities.vipc" Type="Document" URL="../../build support/XY Utilities.vipc"/>
 		</Item>
 		<Item Name="xy_utilities.lvlib" Type="Library" URL="../xy_utilities.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -174,6 +174,7 @@
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
 				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>

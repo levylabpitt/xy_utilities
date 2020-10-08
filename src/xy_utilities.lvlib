@@ -37,8 +37,14 @@
 	<Item Name="examples" Type="Folder">
 		<Item Name="Tree.vi" Type="VI" URL="../examples/Tree.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../examples/Test.vi"/>
+		<Item Name="Simple Test.vi" Type="VI" URL="../subVIs/Simple Test.vi"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
+		<Item Name="utilities" Type="Folder">
+			<Item Name="X Array Range to Index.vi" Type="VI" URL="../subVIs/X Array Range to Index.vi"/>
+			<Item Name="X Array Index to Range.vi" Type="VI" URL="../subVIs/X Array Index to Range.vi"/>
+			<Item Name="Get X Array dx.vi" Type="VI" URL="../subVIs/Get X Array dx.vi"/>
+		</Item>
 		<Item Name="Add float (multiple).vi" Type="VI" URL="../subVIs/Add float (multiple).vi"/>
 		<Item Name="Add float (single).vi" Type="VI" URL="../subVIs/Add float (single).vi"/>
 		<Item Name="Add XY (multiple).vi" Type="VI" URL="../subVIs/Add XY (multiple).vi"/>
@@ -73,24 +79,35 @@
 		<Item Name="Swap X and Y (single).vi" Type="VI" URL="../subVIs/Swap X and Y (single).vi"/>
 		<Item Name="Subset (multiple).vi" Type="VI" URL="../subVIs/Subset (multiple).vi"/>
 		<Item Name="Subset (single).vi" Type="VI" URL="../subVIs/Subset (single).vi"/>
-		<Item Name="Reverse (single).vi" Type="VI" URL="../subVIs/Reverse (single).vi"/>
 		<Item Name="Reverse (multiple).vi" Type="VI" URL="../subVIs/Reverse (multiple).vi"/>
-		<Item Name="Get X and Y (single).vi" Type="VI" URL="../subVIs/Get X and Y (single).vi"/>
+		<Item Name="Reverse (single).vi" Type="VI" URL="../subVIs/Reverse (single).vi"/>
 		<Item Name="Get X and Y (multiple).vi" Type="VI" URL="../subVIs/Get X and Y (multiple).vi"/>
-		<Item Name="Shift Zero (single).vi" Type="VI" URL="../subVIs/Shift Zero (single).vi"/>
+		<Item Name="Get X and Y (single).vi" Type="VI" URL="../subVIs/Get X and Y (single).vi"/>
 		<Item Name="Shift Zero (multiple).vi" Type="VI" URL="../subVIs/Shift Zero (multiple).vi"/>
-		<Item Name="Square (single).vi" Type="VI" URL="../subVIs/Square (single).vi"/>
+		<Item Name="Shift Zero (single).vi" Type="VI" URL="../subVIs/Shift Zero (single).vi"/>
 		<Item Name="Square (multiple).vi" Type="VI" URL="../subVIs/Square (multiple).vi"/>
+		<Item Name="Square (single).vi" Type="VI" URL="../subVIs/Square (single).vi"/>
 		<Item Name="Symmetrize (multiple).vi" Type="VI" URL="../subVIs/Symmetrize (multiple).vi"/>
 		<Item Name="Symmetrize (single).vi" Type="VI" URL="../subVIs/Symmetrize (single).vi"/>
-		<Item Name="Append (single).vi" Type="VI" URL="../subVIs/Append (single).vi"/>
 		<Item Name="Append (multiple).vi" Type="VI" URL="../subVIs/Append (multiple).vi"/>
-		<Item Name="Waveform to XY (single).vi" Type="VI" URL="../subVIs/Waveform to XY (single).vi"/>
+		<Item Name="Append (single).vi" Type="VI" URL="../subVIs/Append (single).vi"/>
+		<Item Name="Append (double array).vi" Type="VI" URL="../subVIs/Append (double array).vi"/>
+		<Item Name="Append (double scaler).vi" Type="VI" URL="../subVIs/Append (double scaler).vi"/>
 		<Item Name="Waveform to XY (multiple).vi" Type="VI" URL="../subVIs/Waveform to XY (multiple).vi"/>
-		<Item Name="XY to Waveform (single).vi" Type="VI" URL="../subVIs/XY to Waveform (single).vi"/>
+		<Item Name="Waveform to XY (single).vi" Type="VI" URL="../subVIs/Waveform to XY (single).vi"/>
 		<Item Name="XY to Waveform (multiple).vi" Type="VI" URL="../subVIs/XY to Waveform (multiple).vi"/>
-		<Item Name="Interpolate Y (single).vi" Type="VI" URL="../subVIs/Interpolate Y (single).vi"/>
+		<Item Name="XY to Waveform (single).vi" Type="VI" URL="../subVIs/XY to Waveform (single).vi"/>
 		<Item Name="Interpolate Y (multiple).vi" Type="VI" URL="../subVIs/Interpolate Y (multiple).vi"/>
+		<Item Name="Interpolate Y (single).vi" Type="VI" URL="../subVIs/Interpolate Y (single).vi"/>
+		<Item Name="Flatten (single) (UNUSED).vi" Type="VI" URL="../subVIs/Flatten (single) (UNUSED).vi"/>
+		<Item Name="Zero Phase Lowpass Filter (multiple).vi" Type="VI" URL="../subVIs/Zero Phase Lowpass Filter (multiple).vi"/>
+		<Item Name="Zero Phase Lowpass Filter (single).vi" Type="VI" URL="../subVIs/Zero Phase Lowpass Filter (single).vi"/>
+		<Item Name="Restrict X Range (multiple).vi" Type="VI" URL="../subVIs/Restrict X Range (multiple).vi"/>
+		<Item Name="Restrict X Range (single).vi" Type="VI" URL="../subVIs/Restrict X Range (single).vi"/>
+		<Item Name="Remove Outliers (multiple).vi" Type="VI" URL="../subVIs/Remove Outliers (multiple).vi"/>
+		<Item Name="Remove Outliers (single).vi" Type="VI" URL="../subVIs/Remove Outliers (single).vi"/>
+		<Item Name="Moving Average (multiple).vi" Type="VI" URL="../subVIs/Moving Average (multiple).vi"/>
+		<Item Name="Moving Average (single).vi" Type="VI" URL="../subVIs/Moving Average (single).vi"/>
 	</Item>
 	<Item Name="Templates" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -125,8 +142,8 @@
 	<Item Name="Waveform to XY.vi" Type="VI" URL="../Waveform to XY.vi"/>
 	<Item Name="XY to Waveform.vi" Type="VI" URL="../XY to Waveform.vi"/>
 	<Item Name="Shift Zero.vi" Type="VI" URL="../Shift Zero.vi"/>
-	<Item Name="Flatten (single).vi" Type="VI" URL="../subVIs/Flatten (single).vi"/>
-	<Item Name="Restrict X Range (single).vi" Type="VI" URL="../subVIs/Restrict X Range (single).vi"/>
-	<Item Name="Remove Outliers (single).vi" Type="VI" URL="../subVIs/Remove Outliers (single).vi"/>
-	<Item Name="Moving Average (single).vi" Type="VI" URL="../subVIs/Moving Average (single).vi"/>
+	<Item Name="Restrict X Range.vi" Type="VI" URL="../Restrict X Range.vi"/>
+	<Item Name="Remove Outliers.vi" Type="VI" URL="../Remove Outliers.vi"/>
+	<Item Name="Zero Phase Lowpass Filter.vi" Type="VI" URL="../Zero Phase Lowpass Filter.vi"/>
+	<Item Name="Moving Average.vi" Type="VI" URL="../Moving Average.vi"/>
 </Library>
