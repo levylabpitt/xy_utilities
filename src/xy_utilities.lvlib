@@ -108,6 +108,8 @@
 		<Item Name="Remove Outliers (single).vi" Type="VI" URL="../subVIs/Remove Outliers (single).vi"/>
 		<Item Name="Moving Average (multiple).vi" Type="VI" URL="../subVIs/Moving Average (multiple).vi"/>
 		<Item Name="Moving Average (single).vi" Type="VI" URL="../subVIs/Moving Average (single).vi"/>
+		<Item Name="Savitsky Golay Filter (multiple).vi" Type="VI" URL="../subVIs/Savitsky Golay Filter (multiple).vi"/>
+		<Item Name="Savitsky Golay Filter (single).vi" Type="VI" URL="../subVIs/Savitsky Golay Filter (single).vi"/>
 	</Item>
 	<Item Name="Templates" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -146,4 +148,5 @@
 	<Item Name="Remove Outliers.vi" Type="VI" URL="../Remove Outliers.vi"/>
 	<Item Name="Zero Phase Lowpass Filter.vi" Type="VI" URL="../Zero Phase Lowpass Filter.vi"/>
 	<Item Name="Moving Average.vi" Type="VI" URL="../Moving Average.vi"/>
+	<Item Name="Savitsky Golay Filter.vi" Type="VI" URL="../Savitsky Golay Filter.vi"/>
 </Library>

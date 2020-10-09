@@ -12,10 +12,10 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="XY Utilities.vipb" Type="Document" URL="../../build support/XY Utilities.vipb"/>
-			<Item Name="XY Utilities.vipc" Type="Document" URL="../../build support/XY Utilities.vipc"/>
+			<Item Name="XY Utilities.vipb" Type="Document" URL="../build support/XY Utilities.vipb"/>
+			<Item Name="XY Utilities.vipc" Type="Document" URL="../build support/XY Utilities.vipc"/>
 		</Item>
-		<Item Name="xy_utilities.lvlib" Type="Library" URL="../xy_utilities.lvlib"/>
+		<Item Name="xy_utilities.lvlib" Type="Library" URL="../src/xy_utilities.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
