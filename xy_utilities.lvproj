@@ -15,6 +15,13 @@
 			<Item Name="XY Utilities.vipb" Type="Document" URL="../build support/XY Utilities.vipb"/>
 			<Item Name="XY Utilities.vipc" Type="Document" URL="../build support/XY Utilities.vipc"/>
 		</Item>
+		<Item Name="tests" Type="Folder">
+			<Item Name="dynamic call test.vi" Type="VI" URL="../tests/dynamic call test.vi"/>
+			<Item Name="Simple Test.vi" Type="VI" URL="../tests/Simple Test.vi"/>
+			<Item Name="Test Derivative.vi" Type="VI" URL="../tests/Test Derivative.vi"/>
+			<Item Name="Test Y Interpolation.vi" Type="VI" URL="../tests/Test Y Interpolation.vi"/>
+			<Item Name="UI Test.vi" Type="VI" URL="../tests/UI Test.vi"/>
+		</Item>
 		<Item Name="xy_utilities.lvlib" Type="Library" URL="../src/xy_utilities.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">

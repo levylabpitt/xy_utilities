@@ -36,15 +36,14 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="examples" Type="Folder">
 		<Item Name="Tree.vi" Type="VI" URL="../examples/Tree.vi"/>
-		<Item Name="Test.vi" Type="VI" URL="../examples/Test.vi"/>
-		<Item Name="Simple Test.vi" Type="VI" URL="../subVIs/Simple Test.vi"/>
+		<Item Name="Test State Machine.vi" Type="VI" URL="../examples/Test State Machine.vi"/>
+	</Item>
+	<Item Name="utilities" Type="Folder">
+		<Item Name="X Array Range to Index.vi" Type="VI" URL="../subVIs/X Array Range to Index.vi"/>
+		<Item Name="X Array Index to Range.vi" Type="VI" URL="../subVIs/X Array Index to Range.vi"/>
+		<Item Name="Get X Array dx.vi" Type="VI" URL="../subVIs/Get X Array dx.vi"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="utilities" Type="Folder">
-			<Item Name="X Array Range to Index.vi" Type="VI" URL="../subVIs/X Array Range to Index.vi"/>
-			<Item Name="X Array Index to Range.vi" Type="VI" URL="../subVIs/X Array Index to Range.vi"/>
-			<Item Name="Get X Array dx.vi" Type="VI" URL="../subVIs/Get X Array dx.vi"/>
-		</Item>
 		<Item Name="Add float (multiple).vi" Type="VI" URL="../subVIs/Add float (multiple).vi"/>
 		<Item Name="Add float (single).vi" Type="VI" URL="../subVIs/Add float (single).vi"/>
 		<Item Name="Add XY (multiple).vi" Type="VI" URL="../subVIs/Add XY (multiple).vi"/>
@@ -149,4 +148,6 @@
 	<Item Name="Zero Phase Lowpass Filter.vi" Type="VI" URL="../Zero Phase Lowpass Filter.vi"/>
 	<Item Name="Moving Average.vi" Type="VI" URL="../Moving Average.vi"/>
 	<Item Name="Savitsky Golay Filter.vi" Type="VI" URL="../Savitsky Golay Filter.vi"/>
+	<Item Name="XY to 2D.vi" Type="VI" URL="../XY to 2D.vi"/>
+	<Item Name="2D to XY.vi" Type="VI" URL="../2D to XY.vi"/>
 </Library>
