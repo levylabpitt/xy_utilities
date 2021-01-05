@@ -36,7 +36,8 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="examples" Type="Folder">
 		<Item Name="Tree.vi" Type="VI" URL="../examples/Tree.vi"/>
-		<Item Name="Test State Machine.vi" Type="VI" URL="../examples/Test State Machine.vi"/>
+		<Item Name="XY State Machine Example.vi" Type="VI" URL="../examples/XY State Machine Example.vi"/>
+		<Item Name="Test Dataset.vi" Type="VI" URL="../../tests/Test Dataset.vi"/>
 	</Item>
 	<Item Name="utilities" Type="Folder">
 		<Item Name="X Array Range to Index.vi" Type="VI" URL="../subVIs/X Array Range to Index.vi"/>
