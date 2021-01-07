@@ -110,6 +110,13 @@
 		<Item Name="Moving Average (single).vi" Type="VI" URL="../subVIs/Moving Average (single).vi"/>
 		<Item Name="Savitsky Golay Filter (multiple).vi" Type="VI" URL="../subVIs/Savitsky Golay Filter (multiple).vi"/>
 		<Item Name="Savitsky Golay Filter (single).vi" Type="VI" URL="../subVIs/Savitsky Golay Filter (single).vi"/>
+		<Item Name="Linear Fit (multiple).vi" Type="VI" URL="../subVIs/Linear Fit (multiple).vi"/>
+		<Item Name="Linear Fit (single).vi" Type="VI" URL="../subVIs/Linear Fit (single).vi"/>
+		<Item Name="Difference Quotient (single).vi" Type="VI" URL="../subVIs/Difference Quotient (single).vi"/>
+		<Item Name="Difference Quotient (multiple).vi" Type="VI" URL="../subVIs/Difference Quotient (multiple).vi"/>
+		<Item Name="h.vi" Type="VI" URL="../subVIs/h.vi"/>
+		<Item Name="DQ subVI.vi" Type="VI" URL="../subVIs/DQ subVI.vi"/>
+		<Item Name="Linear Fit CI (single)(unused).vi" Type="VI" URL="../subVIs/Linear Fit CI (single)(unused).vi"/>
 	</Item>
 	<Item Name="Templates" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -151,4 +158,6 @@
 	<Item Name="Savitsky Golay Filter.vi" Type="VI" URL="../Savitsky Golay Filter.vi"/>
 	<Item Name="XY to 2D.vi" Type="VI" URL="../XY to 2D.vi"/>
 	<Item Name="2D to XY.vi" Type="VI" URL="../2D to XY.vi"/>
+	<Item Name="Linear Fit.vi" Type="VI" URL="../Linear Fit.vi"/>
+	<Item Name="Difference Quotient.vi" Type="VI" URL="../Difference Quotient.vi"/>
 </Library>
