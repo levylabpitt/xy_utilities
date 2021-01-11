@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2021-01-08 12:12:11" Creator="Patrick Irvin" Comments="" ID="3fbcdee166571c978880310ffd42bdcf">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2021-01-09 10:09:55" Creator="Patrick Irvin" Comments="" ID="d8e32cb72f9dab50c1604c671a286fda">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_XY_Utilities</Package_File_Name>
-    <Library_Version>1.3.0.15</Library_Version>
+    <Library_Version>1.3.1.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -47,12 +47,11 @@ Supported methods:
       <Packager/>
       <URL/>
       <Release_Notes>New Methods
-- Linear Fit.vi: Linear LS Fit with upper and lower bounds
-- Difference Quotient.vi: Returns average of forward and reverse difference quotient centered within window
 
 Changes
-- Interpolate now uses Interpolate 1D Array.vi instead of Interpolate.vi 
-- Change the way Derivative.vi automatically calculates "dx" from X-Array</Release_Notes>
+
+Bug Fixes
+- Fix Derivative.vi polymorphism</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -706,7 +705,7 @@ Changes
         <Path>..\src\Linear Fit.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>52DF736C6479A78428679174577F3BA1</GUID>
+      <GUID>F22C29016CAE3AF442E279D33D434149</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -755,7 +754,7 @@ Changes
         <Path>..\src\examples\XY State Machine Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>51FCD9CBD967ED26CF28F6654A571C42</GUID>
+      <GUID>E380C1F4754583E5FC0798ED392DBC71</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
