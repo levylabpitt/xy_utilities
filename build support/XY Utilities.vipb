@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2021-01-09 10:09:55" Creator="Patrick Irvin" Comments="" ID="d8e32cb72f9dab50c1604c671a286fda">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2021-01-11 14:51:07" Creator="Patrick Irvin" Comments="" ID="2d180a47c2d4938883d3be03a25e44ff">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_XY_Utilities</Package_File_Name>
-    <Library_Version>1.3.1.16</Library_Version>
+    <Library_Version>1.3.2.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -49,9 +49,10 @@ Supported methods:
       <Release_Notes>New Methods
 
 Changes
+- Change Difference Quotient.vi Algorithm
+- Add Pointers to Sort.vi
 
-Bug Fixes
-- Fix Derivative.vi polymorphism</Release_Notes>
+Bug Fixes</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -705,7 +706,7 @@ Bug Fixes
         <Path>..\src\Linear Fit.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F22C29016CAE3AF442E279D33D434149</GUID>
+      <GUID>9FACABDA68F0F33B8AE10222B517EEAA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -754,7 +755,7 @@ Bug Fixes
         <Path>..\src\examples\XY State Machine Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E380C1F4754583E5FC0798ED392DBC71</GUID>
+      <GUID>EEC36A97F133126C539426604E8C3547</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
