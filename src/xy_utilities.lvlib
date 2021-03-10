@@ -45,6 +45,11 @@
 		<Item Name="Get X Array dx.vi" Type="VI" URL="../subVIs/Get X Array dx.vi"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
+		<Item Name="private" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Item Name="h.vi" Type="VI" URL="../subVIs/h.vi"/>
+			<Item Name="DQ subVI.vi" Type="VI" URL="../subVIs/DQ subVI.vi"/>
+		</Item>
 		<Item Name="Add float (multiple).vi" Type="VI" URL="../subVIs/Add float (multiple).vi"/>
 		<Item Name="Add float (single).vi" Type="VI" URL="../subVIs/Add float (single).vi"/>
 		<Item Name="Add XY (multiple).vi" Type="VI" URL="../subVIs/Add XY (multiple).vi"/>
@@ -114,8 +119,6 @@
 		<Item Name="Linear Fit (single).vi" Type="VI" URL="../subVIs/Linear Fit (single).vi"/>
 		<Item Name="Difference Quotient (single).vi" Type="VI" URL="../subVIs/Difference Quotient (single).vi"/>
 		<Item Name="Difference Quotient (multiple).vi" Type="VI" URL="../subVIs/Difference Quotient (multiple).vi"/>
-		<Item Name="h.vi" Type="VI" URL="../subVIs/h.vi"/>
-		<Item Name="DQ subVI.vi" Type="VI" URL="../subVIs/DQ subVI.vi"/>
 		<Item Name="Linear Fit CI (single)(unused).vi" Type="VI" URL="../subVIs/Linear Fit CI (single)(unused).vi"/>
 	</Item>
 	<Item Name="Templates" Type="Folder">
