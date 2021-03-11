@@ -40,16 +40,17 @@
 		<Item Name="Test Dataset.vi" Type="VI" URL="../../tests/Test Dataset.vi"/>
 	</Item>
 	<Item Name="utilities" Type="Folder">
-		<Item Name="X Array Range to Index.vi" Type="VI" URL="../subVIs/X Array Range to Index.vi"/>
-		<Item Name="X Array Index to Range.vi" Type="VI" URL="../subVIs/X Array Index to Range.vi"/>
-		<Item Name="Get X Array dx.vi" Type="VI" URL="../subVIs/Get X Array dx.vi"/>
+		<Item Name="Change Execution.vi" Type="VI" URL="../Utilities/Change Execution.vi"/>
 	</Item>
-	<Item Name="subVIs" Type="Folder">
-		<Item Name="private" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			<Item Name="h.vi" Type="VI" URL="../subVIs/h.vi"/>
-			<Item Name="DQ subVI.vi" Type="VI" URL="../subVIs/DQ subVI.vi"/>
-		</Item>
+	<Item Name="private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Get X Array dx.vi" Type="VI" URL="../Private/Get X Array dx.vi"/>
+		<Item Name="h.vi" Type="VI" URL="../Private/h.vi"/>
+		<Item Name="DQ subVI.vi" Type="VI" URL="../Private/DQ subVI.vi"/>
+		<Item Name="X Array Range to Index.vi" Type="VI" URL="../Private/X Array Range to Index.vi"/>
+		<Item Name="X Array Index to Range.vi" Type="VI" URL="../Private/X Array Index to Range.vi"/>
+	</Item>
+	<Item Name="Poly subVIs" Type="Folder">
 		<Item Name="Add float (multiple).vi" Type="VI" URL="../subVIs/Add float (multiple).vi"/>
 		<Item Name="Add float (single).vi" Type="VI" URL="../subVIs/Add float (single).vi"/>
 		<Item Name="Add XY (multiple).vi" Type="VI" URL="../subVIs/Add XY (multiple).vi"/>
@@ -104,7 +105,6 @@
 		<Item Name="XY to Waveform (single).vi" Type="VI" URL="../subVIs/XY to Waveform (single).vi"/>
 		<Item Name="Interpolate Y (multiple).vi" Type="VI" URL="../subVIs/Interpolate Y (multiple).vi"/>
 		<Item Name="Interpolate Y (single).vi" Type="VI" URL="../subVIs/Interpolate Y (single).vi"/>
-		<Item Name="Flatten (single) (UNUSED).vi" Type="VI" URL="../subVIs/Flatten (single) (UNUSED).vi"/>
 		<Item Name="Zero Phase Lowpass Filter (multiple).vi" Type="VI" URL="../subVIs/Zero Phase Lowpass Filter (multiple).vi"/>
 		<Item Name="Zero Phase Lowpass Filter (single).vi" Type="VI" URL="../subVIs/Zero Phase Lowpass Filter (single).vi"/>
 		<Item Name="Restrict X Range (multiple).vi" Type="VI" URL="../subVIs/Restrict X Range (multiple).vi"/>
@@ -119,6 +119,8 @@
 		<Item Name="Linear Fit (single).vi" Type="VI" URL="../subVIs/Linear Fit (single).vi"/>
 		<Item Name="Difference Quotient (single).vi" Type="VI" URL="../subVIs/Difference Quotient (single).vi"/>
 		<Item Name="Difference Quotient (multiple).vi" Type="VI" URL="../subVIs/Difference Quotient (multiple).vi"/>
+		<Item Name="Peak Detector (single).vi" Type="VI" URL="../subVIs/Peak Detector (single).vi"/>
+		<Item Name="Peak Detector (multiple).vi" Type="VI" URL="../subVIs/Peak Detector (multiple).vi"/>
 		<Item Name="Linear Fit CI (single)(unused).vi" Type="VI" URL="../subVIs/Linear Fit CI (single)(unused).vi"/>
 	</Item>
 	<Item Name="Templates" Type="Folder">
@@ -163,4 +165,6 @@
 	<Item Name="2D to XY.vi" Type="VI" URL="../2D to XY.vi"/>
 	<Item Name="Linear Fit.vi" Type="VI" URL="../Linear Fit.vi"/>
 	<Item Name="Difference Quotient.vi" Type="VI" URL="../Difference Quotient.vi"/>
+	<Item Name="Flatten.vi" Type="VI" URL="../Flatten.vi"/>
+	<Item Name="Peak Detector.vi" Type="VI" URL="../Peak Detector.vi"/>
 </Library>
