@@ -45,7 +45,7 @@
 	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Get X Array dx.vi" Type="VI" URL="../Private/Get X Array dx.vi"/>
-		<Item Name="h.vi" Type="VI" URL="../Private/h.vi"/>
+		<Item Name="X Units.vi" Type="VI" URL="../Private/X Units.vi"/>
 		<Item Name="DQ subVI.vi" Type="VI" URL="../Private/DQ subVI.vi"/>
 		<Item Name="X Array Range to Index.vi" Type="VI" URL="../Private/X Array Range to Index.vi"/>
 		<Item Name="X Array Index to Range.vi" Type="VI" URL="../Private/X Array Index to Range.vi"/>
@@ -167,4 +167,5 @@
 	<Item Name="Difference Quotient.vi" Type="VI" URL="../Difference Quotient.vi"/>
 	<Item Name="Flatten.vi" Type="VI" URL="../Flatten.vi"/>
 	<Item Name="Peak Detector.vi" Type="VI" URL="../Peak Detector.vi"/>
+	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
 </Library>
