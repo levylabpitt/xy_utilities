@@ -171,4 +171,5 @@
 	<Item Name="Peak Detector.vi" Type="VI" URL="../Peak Detector.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
 	<Item Name="Log.vi" Type="VI" URL="../Log.vi"/>
+	<Item Name="Modified Sinc Filter (single).vi" Type="VI" URL="../subVIs/Modified Sinc Filter (single).vi"/>
 </Library>
