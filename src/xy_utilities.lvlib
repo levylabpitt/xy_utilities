@@ -49,6 +49,7 @@
 		<Item Name="DQ subVI.vi" Type="VI" URL="../Private/DQ subVI.vi"/>
 		<Item Name="X Array Range to Index.vi" Type="VI" URL="../Private/X Array Range to Index.vi"/>
 		<Item Name="X Array Index to Range.vi" Type="VI" URL="../Private/X Array Index to Range.vi"/>
+		<Item Name="Hann Windows.vi" Type="VI" URL="../Private/Hann Windows.vi"/>
 	</Item>
 	<Item Name="Poly subVIs" Type="Folder">
 		<Item Name="Add float (multiple).vi" Type="VI" URL="../subVIs/Add float (multiple).vi"/>
@@ -105,25 +106,28 @@
 		<Item Name="XY to Waveform (single).vi" Type="VI" URL="../subVIs/XY to Waveform (single).vi"/>
 		<Item Name="Interpolate Y (multiple).vi" Type="VI" URL="../subVIs/Interpolate Y (multiple).vi"/>
 		<Item Name="Interpolate Y (single).vi" Type="VI" URL="../subVIs/Interpolate Y (single).vi"/>
-		<Item Name="Zero Phase Lowpass Filter (multiple).vi" Type="VI" URL="../subVIs/Zero Phase Lowpass Filter (multiple).vi"/>
 		<Item Name="Zero Phase Lowpass Filter (single).vi" Type="VI" URL="../subVIs/Zero Phase Lowpass Filter (single).vi"/>
-		<Item Name="Restrict X Range (multiple).vi" Type="VI" URL="../subVIs/Restrict X Range (multiple).vi"/>
+		<Item Name="Zero Phase Lowpass Filter (multiple).vi" Type="VI" URL="../subVIs/Zero Phase Lowpass Filter (multiple).vi"/>
 		<Item Name="Restrict X Range (single).vi" Type="VI" URL="../subVIs/Restrict X Range (single).vi"/>
-		<Item Name="Remove Outliers (multiple).vi" Type="VI" URL="../subVIs/Remove Outliers (multiple).vi"/>
+		<Item Name="Restrict X Range (multiple).vi" Type="VI" URL="../subVIs/Restrict X Range (multiple).vi"/>
 		<Item Name="Remove Outliers (single).vi" Type="VI" URL="../subVIs/Remove Outliers (single).vi"/>
-		<Item Name="Moving Average (multiple).vi" Type="VI" URL="../subVIs/Moving Average (multiple).vi"/>
+		<Item Name="Remove Outliers (multiple).vi" Type="VI" URL="../subVIs/Remove Outliers (multiple).vi"/>
 		<Item Name="Moving Average (single).vi" Type="VI" URL="../subVIs/Moving Average (single).vi"/>
-		<Item Name="Savitsky Golay Filter (multiple).vi" Type="VI" URL="../subVIs/Savitsky Golay Filter (multiple).vi"/>
+		<Item Name="Moving Average (multiple).vi" Type="VI" URL="../subVIs/Moving Average (multiple).vi"/>
 		<Item Name="Savitsky Golay Filter (single).vi" Type="VI" URL="../subVIs/Savitsky Golay Filter (single).vi"/>
+		<Item Name="Savitsky Golay Filter (multiple).vi" Type="VI" URL="../subVIs/Savitsky Golay Filter (multiple).vi"/>
+		<Item Name="Savitsky Golay Weighted Filter (single).vi" Type="VI" URL="../subVIs/Savitsky Golay Weighted Filter (single).vi"/>
+		<Item Name="Savitsky Golay Weighted Filter (multiple).vi" Type="VI" URL="../subVIs/Savitsky Golay Weighted Filter (multiple).vi"/>
 		<Item Name="Linear Fit (multiple).vi" Type="VI" URL="../subVIs/Linear Fit (multiple).vi"/>
 		<Item Name="Linear Fit (single).vi" Type="VI" URL="../subVIs/Linear Fit (single).vi"/>
 		<Item Name="Difference Quotient (single).vi" Type="VI" URL="../subVIs/Difference Quotient (single).vi"/>
 		<Item Name="Difference Quotient (multiple).vi" Type="VI" URL="../subVIs/Difference Quotient (multiple).vi"/>
 		<Item Name="Peak Detector (single).vi" Type="VI" URL="../subVIs/Peak Detector (single).vi"/>
 		<Item Name="Peak Detector (multiple).vi" Type="VI" URL="../subVIs/Peak Detector (multiple).vi"/>
-		<Item Name="Linear Fit CI (single)(unused).vi" Type="VI" URL="../subVIs/Linear Fit CI (single)(unused).vi"/>
 		<Item Name="Log (multiple).vi" Type="VI" URL="../subVIs/Log (multiple).vi"/>
 		<Item Name="Log (single).vi" Type="VI" URL="../subVIs/Log (single).vi"/>
+		<Item Name="Linear Fit CI (single)(unused).vi" Type="VI" URL="../subVIs/Linear Fit CI (single)(unused).vi"/>
+		<Item Name="Modified Sinc Filter (single).vi" Type="VI" URL="../subVIs/Modified Sinc Filter (single).vi"/>
 	</Item>
 	<Item Name="Templates" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -163,6 +167,7 @@
 	<Item Name="Zero Phase Lowpass Filter.vi" Type="VI" URL="../Zero Phase Lowpass Filter.vi"/>
 	<Item Name="Moving Average.vi" Type="VI" URL="../Moving Average.vi"/>
 	<Item Name="Savitsky Golay Filter.vi" Type="VI" URL="../Savitsky Golay Filter.vi"/>
+	<Item Name="Savitsky Golay Weighted Filter.vi" Type="VI" URL="../Savitsky Golay Weighted Filter.vi"/>
 	<Item Name="XY to 2D.vi" Type="VI" URL="../XY to 2D.vi"/>
 	<Item Name="2D to XY.vi" Type="VI" URL="../2D to XY.vi"/>
 	<Item Name="Linear Fit.vi" Type="VI" URL="../Linear Fit.vi"/>
@@ -171,5 +176,4 @@
 	<Item Name="Peak Detector.vi" Type="VI" URL="../Peak Detector.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
 	<Item Name="Log.vi" Type="VI" URL="../Log.vi"/>
-	<Item Name="Modified Sinc Filter (single).vi" Type="VI" URL="../subVIs/Modified Sinc Filter (single).vi"/>
 </Library>
