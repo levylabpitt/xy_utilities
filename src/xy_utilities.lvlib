@@ -170,6 +170,7 @@
 	<Item Name="Savitsky Golay Weighted Filter.vi" Type="VI" URL="../Savitsky Golay Weighted Filter.vi"/>
 	<Item Name="XY to 2D.vi" Type="VI" URL="../XY to 2D.vi"/>
 	<Item Name="2D to XY.vi" Type="VI" URL="../2D to XY.vi"/>
+	<Item Name="2D to YX.vi" Type="VI" URL="../2D to YX.vi"/>
 	<Item Name="Linear Fit.vi" Type="VI" URL="../Linear Fit.vi"/>
 	<Item Name="Difference Quotient.vi" Type="VI" URL="../Difference Quotient.vi"/>
 	<Item Name="Flatten.vi" Type="VI" URL="../Flatten.vi"/>

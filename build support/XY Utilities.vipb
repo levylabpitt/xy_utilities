@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2022-07-06 12:06:22" Creator="Patrick Irvin" Comments="" ID="e25f173c80d1d962a499a231f7b26c8e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2022-08-29 15:19:55" Creator="Patrick Irvin" Comments="" ID="d0ae229eb3cf85ee957067394a0c58ae">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_XY_Utilities</Package_File_Name>
-    <Library_Version>1.5.1.2</Library_Version>
+    <Library_Version>1.5.2.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -49,10 +49,12 @@ Supported methods:
       <Packager/>
       <URL/>
       <Release_Notes>New Methods
-- Savitsky Golay Weighted filters
+- 2D to YX.vi
 
-Changes
-- Update palette
+Bug Fixes
+- Subset would not be inclusive of the final point
+- Subset slider method would not correctly caclulate the range
+- Interpolate would not interpolate the final point correctly if X_max == X_high
 </Release_Notes>
     </Description>
     <Destinations>
@@ -777,7 +779,7 @@ Changes
         <Path>..\src\examples</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6AB55431932256115313A143E111E19D</GUID>
+      <GUID>61AADB37D297B7437B09F9825F7B5A02</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -826,7 +828,7 @@ Changes
         <Path>..\src\examples\XY State Machine Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>89A7EA76FF6913DD5D6F64F49259AC9A</GUID>
+      <GUID>811DD18975F191A3B5663F5C061DDE39</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
