@@ -137,44 +137,44 @@
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Interpolation Configuration--cluster.ctl" Type="VI" URL="../Typedefs/Interpolation Configuration--cluster.ctl"/>
 	</Item>
+	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
+	<Item Name="Waveform to XY.vi" Type="VI" URL="../Waveform to XY.vi"/>
+	<Item Name="XY to Waveform.vi" Type="VI" URL="../XY to Waveform.vi"/>
+	<Item Name="2D to XY.vi" Type="VI" URL="../2D to XY.vi"/>
+	<Item Name="2D to YX.vi" Type="VI" URL="../2D to YX.vi"/>
+	<Item Name="XY to 2D.vi" Type="VI" URL="../XY to 2D.vi"/>
 	<Item Name="Add.vi" Type="VI" URL="../Add.vi"/>
 	<Item Name="Subtract.vi" Type="VI" URL="../Subtract.vi"/>
 	<Item Name="Multiply.vi" Type="VI" URL="../Multiply.vi"/>
 	<Item Name="Divide.vi" Type="VI" URL="../Divide.vi"/>
 	<Item Name="Square.vi" Type="VI" URL="../Square.vi"/>
+	<Item Name="Log.vi" Type="VI" URL="../Log.vi"/>
 	<Item Name="Sort.vi" Type="VI" URL="../Sort.vi"/>
 	<Item Name="Reverse.vi" Type="VI" URL="../Reverse.vi"/>
 	<Item Name="Decimate.vi" Type="VI" URL="../Decimate.vi"/>
 	<Item Name="Decimate Array.vi" Type="VI" URL="../Decimate Array.vi"/>
 	<Item Name="Subset.vi" Type="VI" URL="../Subset.vi"/>
-	<Item Name="Swap X and Y.vi" Type="VI" URL="../Swap X and Y.vi"/>
-	<Item Name="Get X and Y.vi" Type="VI" URL="../Get X and Y.vi"/>
-	<Item Name="Derivative.vi" Type="VI" URL="../Derivative.vi"/>
-	<Item Name="Average.vi" Type="VI" URL="../Average.vi"/>
-	<Item Name="Interpolate.vi" Type="VI" URL="../Interpolate.vi"/>
-	<Item Name="Interpolate Parameter.vi" Type="VI" URL="../Interpolate Parameter.vi"/>
-	<Item Name="Interpolate Y.vi" Type="VI" URL="../Interpolate Y.vi"/>
-	<Item Name="Resample.vi" Type="VI" URL="../Resample.vi"/>
-	<Item Name="FFT Spectrum.vi" Type="VI" URL="../FFT Spectrum.vi"/>
-	<Item Name="Symmetrize.vi" Type="VI" URL="../Symmetrize.vi"/>
-	<Item Name="FFT Power Spectrum.vi" Type="VI" URL="../FFT Power Spectrum.vi"/>
-	<Item Name="Append.vi" Type="VI" URL="../Append.vi"/>
-	<Item Name="Waveform to XY.vi" Type="VI" URL="../Waveform to XY.vi"/>
-	<Item Name="XY to Waveform.vi" Type="VI" URL="../XY to Waveform.vi"/>
-	<Item Name="Shift Zero.vi" Type="VI" URL="../Shift Zero.vi"/>
 	<Item Name="Restrict X Range.vi" Type="VI" URL="../Restrict X Range.vi"/>
 	<Item Name="Remove Outliers.vi" Type="VI" URL="../Remove Outliers.vi"/>
+	<Item Name="Swap X and Y.vi" Type="VI" URL="../Swap X and Y.vi"/>
+	<Item Name="Get X and Y.vi" Type="VI" URL="../Get X and Y.vi"/>
+	<Item Name="Append.vi" Type="VI" URL="../Append.vi"/>
+	<Item Name="Interpolate Y.vi" Type="VI" URL="../Interpolate Y.vi"/>
+	<Item Name="Shift Zero.vi" Type="VI" URL="../Shift Zero.vi"/>
+	<Item Name="Symmetrize.vi" Type="VI" URL="../Symmetrize.vi"/>
+	<Item Name="Average.vi" Type="VI" URL="../Average.vi"/>
+	<Item Name="Interpolate Parameter.vi" Type="VI" URL="../Interpolate Parameter.vi"/>
+	<Item Name="Interpolate.vi" Type="VI" URL="../Interpolate.vi"/>
+	<Item Name="Resample.vi" Type="VI" URL="../Resample.vi"/>
+	<Item Name="FFT Spectrum.vi" Type="VI" URL="../FFT Spectrum.vi"/>
+	<Item Name="FFT Power Spectrum.vi" Type="VI" URL="../FFT Power Spectrum.vi"/>
+	<Item Name="Difference Quotient.vi" Type="VI" URL="../Difference Quotient.vi"/>
+	<Item Name="Derivative.vi" Type="VI" URL="../Derivative.vi"/>
+	<Item Name="Linear Fit.vi" Type="VI" URL="../Linear Fit.vi"/>
+	<Item Name="Peak Detector.vi" Type="VI" URL="../Peak Detector.vi"/>
+	<Item Name="Flatten.vi" Type="VI" URL="../Flatten.vi"/>
 	<Item Name="Zero Phase Lowpass Filter.vi" Type="VI" URL="../Zero Phase Lowpass Filter.vi"/>
 	<Item Name="Moving Average.vi" Type="VI" URL="../Moving Average.vi"/>
 	<Item Name="Savitsky Golay Filter.vi" Type="VI" URL="../Savitsky Golay Filter.vi"/>
 	<Item Name="Savitsky Golay Weighted Filter.vi" Type="VI" URL="../Savitsky Golay Weighted Filter.vi"/>
-	<Item Name="XY to 2D.vi" Type="VI" URL="../XY to 2D.vi"/>
-	<Item Name="2D to XY.vi" Type="VI" URL="../2D to XY.vi"/>
-	<Item Name="2D to YX.vi" Type="VI" URL="../2D to YX.vi"/>
-	<Item Name="Linear Fit.vi" Type="VI" URL="../Linear Fit.vi"/>
-	<Item Name="Difference Quotient.vi" Type="VI" URL="../Difference Quotient.vi"/>
-	<Item Name="Flatten.vi" Type="VI" URL="../Flatten.vi"/>
-	<Item Name="Peak Detector.vi" Type="VI" URL="../Peak Detector.vi"/>
-	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
-	<Item Name="Log.vi" Type="VI" URL="../Log.vi"/>
 </Library>
